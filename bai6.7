@@ -1,0 +1,14 @@
+class Circle:
+    def __init__(self, r):
+        self.radius = r
+
+    def area(self):
+        return 3.14 * (self.radius ** 2)
+
+    def circumference(self):
+        return 2 * 3.14 * self.radius
+r = float(input("Nhập bán kính hình tròn: "))
+c = Circle(r)
+print("Diện tích:", c.area())
+print("Chu vi:", c.circumference())
+print("245752021610021 Dau Van Khanh Duc")
